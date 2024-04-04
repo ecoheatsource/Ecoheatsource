@@ -1,0 +1,152 @@
+.dark-theme .theme_slider_1 .slider {
+    background-image: url("../images/slider/bathroom.jpg");
+}
+
+.dark-theme .theme_slider_1 .slider::before {
+    display: none;
+}
+
+.slider-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(3, 40, 248, 0.6), rgba(0, 0, 0, 0.2));
+}
+
+.btn-alpha {
+    background: var(--second-color);
+    color: var(--primary-color);
+    padding: 10px 30px;
+    border-radius: 0px;
+    border: 1px solid var(--primary-color);
+    transition: all 0.5s;
+    margin-top: -24px;
+}
+
+.btn-alpha:hover {
+    background: var(--primary-color);
+    color: var(--second-color);
+    padding: 10px 30px;
+    border-radius: 0px;
+    border: 1px solid var(--second-color);
+}
+
+.whatsapp-link {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    margin: 30px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 8px;
+    z-index: 999999;
+}
+
+.whatsapp-link .whatsapp-link img {
+    width: 100%;
+    transition: all 0.5s;
+}
+
+.clamp-1 {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.clamp-4 {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.clamp-5 {
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.quote-form-container {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background: rgba(2, 10, 80, 0.28);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;
+}
+
+.quote-form {
+    background: var(--primary-color);
+    width: 100%;
+    border-radius: 5px;
+}
+
+.quote-form-header {
+    padding: 15px 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.quote-form-header h3 {
+    font-size: 18px;
+}
+
+.quote-form-body {
+    padding: 15px;
+}
+
+.quote-form-btn {
+    background: var(--blue-color);
+}
+
+.alert-notify {
+    padding: 0px;
+    padding-right: 20px;
+    background-image: linear-gradient(310deg, #17ad37, #008507);
+    border: none;
+    max-width: 360px;
+}
+
+.alert-notify .alert-container {
+    display: flex;
+    align-items: center;
+}
+
+.alert-notify .alert-container .alert-icon {
+    font-size: 48px;
+    margin-right: 10px;
+    color: rgba(255, 255, 255, 0.6);
+    border-right: 1px solid rgba(3, 107, 8, 0.28);
+    padding: 15px 10px;
+}
+
+.alert-notify .alert-container .alert-content .alert-title {
+    font-weight: 500;
+    display: block;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.alert-notify .alert-container .alert-content .alert-message {
+    display: block;
+    font-size: 12px;
+    line-height: 15px;
+    color: rgba(255, 255, 255, 0.9);
+}
